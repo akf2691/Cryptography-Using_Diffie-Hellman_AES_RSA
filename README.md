@@ -10,3 +10,9 @@ This project demonstrates a secure communication flow using multiple cryptograph
 1. Open the `.ipynb` file in this repository.
 2. Click the **"Open in Colab"** button at the top.
 3. Run the cells to see the key exchange and encryption in action.
+
+## Acknowledgements
+* **System Architecture:** I designed the hybrid security flow, integrating **X25519** for Elliptic Curve Diffie-Hellman (ECDH) and **RSA** for digital signatures.
+* **Key Management:** I implemented **HKDF** (HMAC-based Key Derivation Function) to derive secure, high-entropy keys for symmetric encryption.
+* **AI Assistance:** I used ChatGPT to help generate the **boilerplate** code and syntax for the cryptographic libraries, ensuring standard implementation of the AES and X25519 protocols.
+* **Review & Testing:** Every line of code was manually reviewed, debugged and verified by me to ensure the cryptographic handshake functions correctly.
